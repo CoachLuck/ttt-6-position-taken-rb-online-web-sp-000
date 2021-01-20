@@ -1,4 +1,4 @@
 # code your #position_taken? method here!
 def position_taken?(board, idx)
-  return i == "X" || i == "O"
+  return board[idx] == "X" || board[idx] == "O"
 end
